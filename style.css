@@ -4,13 +4,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: #e0e7ff; 
 }
 
 .container {
     text-align: center;
     padding: 30px;
-    background-color: #ffffff; /* Background color for container */
+    background-color: #ffffff; 
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 90%;
@@ -18,6 +18,7 @@ body {
 }
 
 /* TODO: Add styles for labels, inputs, buttons, and output text */
+
 h1 {
     font-size: 2.2em;
     margin-bottom: 20px;
@@ -25,3 +26,69 @@ h1 {
 }
 
 /* Add more styles here as needed */
+
+
+#password-options {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666666; 
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1.1em;
+    text-align: center; 
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: green;
+}
+
+#passwordOutput {
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    color: #000000; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f0f0f0; 
+}
+
+#copyBtn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+#copyBtn:hover {
+    background-color: #e0e0e0;
+}

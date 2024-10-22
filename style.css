@@ -35,7 +35,8 @@ h1 {
 label {
     display: block;
     margin-bottom: 5px;
-    color: #666666; 
+    color: #000000; 
+    
 }
 
 input[type="number"] {
@@ -91,4 +92,9 @@ button:hover {
 
 #copyBtn:hover {
     background-color: #e0e0e0;
+}
+label:hover {
+    color: rgb(245, 243, 248);
+    font-size: large;
+    background-color: #000000;
 }
